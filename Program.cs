@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿person person = new person
+{
+    firstname = "bob", lastname = "heinbokel"
+};
+
+Console.WriteLine($"this guy is named {person}");
